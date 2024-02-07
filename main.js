@@ -1,10 +1,19 @@
 // Setup 'tick' sound
 const tick = new Audio('sounds/tick.mp3');
 const tock = new Audio('sound/tock.mp3')
-let count = 0
+const kick-drum = new Audio('sounds/kick-drum.mp3');
+const hi-Hat = new Audio('sounds/hi-hat.mp3')
+const snare-drum = new Audio('sound/snare-drum.mp3');
+
+
+// Metronome timming
+const kickDrumTiming = document.querySelector('#kick-drum-timing')
+const snareDrumTiming = document.querySelector('#snare-drum-timing')
+const hiHatTiming = document.querySelector('#hi-hat-timing')
 
 // This function is called every 600ms
 function update() {
+    console.log(kick-drum timing)
 
     // Play the 'tick' sound
     tick.play();
